@@ -8,7 +8,7 @@
     --primary-color: #1e293b;       /* Azul oscuro sobrio */
     --accent-color: #0284c7;        /* Azul brillante tecnológico */
     --accent-hover: #0369a1;        /* Azul al pasar el cursor */
-    --bg-gradient: linear-gradient(135deg, #a490ff 0%, #67cf70 100%);
+    --bg-gradient: linear-gradient(135deg, #a490ff 0%, #a6caa9 100%);
     --card-bg: #ffffff;
     --text-primary: #0f172a;
     --text-secondary: #475569;
@@ -159,7 +159,7 @@ body {
     /* Escalado e inclinación sutil al pasar el mouse */
     transform: scale(1.05) rotate(2deg);
     outline-color: var(--accent-hover);
-    box-shadow: 0 12px 24px rgba(2, 132, 199, 0.35);
+    box-shadow: 0 12px 24px rgba(91, 49, 216, 0.35);
     cursor: pointer;
 }
 
@@ -246,10 +246,10 @@ body {
     }
 
 
-/* Modo Oscuro Automático */
+/* Modo Oscuro Automático 
 @media (prefers-color-scheme: dark) {
     :root {
-        /* Inversión de fondos y superficies */
+        /* Inversión de fondos y superficies 
         --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
         --card-bg: #1e293b;
 
@@ -262,4 +262,4 @@ body {
         --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
         --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
     }
-}
+}*/
